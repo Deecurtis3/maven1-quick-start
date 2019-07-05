@@ -13,7 +13,7 @@ public class Application {
 	}
 	
 	public void greet() {
-		List<String> gteetings = new ArrayList<>();
+		List<String> greetings = new ArrayList<>();
 		greetings.add("Hello");
 		
 		for (String greeting : greetings) {
