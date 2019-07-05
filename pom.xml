@@ -7,7 +7,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>clinic.programmming</groupId>
   <artifactId>maven1-quick-start</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   
   <dependencies>
    <dependency>
@@ -15,7 +15,13 @@
       <artifactId>commons-lang3</artifactId>
         <version>3.9</version>
       </dependency>
-  </dependencies>
+	  <dependency>
+   <groupId>junit</groupId>
+   <artifactId>junit</artifactId>
+   <version>4.13-beta-3</version>
+   <scope>test</scope>
+  </dependency>
+   </dependencies>
   
   
    <build>
